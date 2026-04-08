@@ -12,7 +12,7 @@ st.title("📈 Stock Price Prediction App")
 
 # ------------------ LOAD DATA ------------------
 try:
-    df = pd.read_csv(r"C:\Users\ADMIN\Desktop\Stock Price Prediction\EW-MAX.csv")
+    df = pd.read_csv("EW-MAX.csv")
 except:
     st.error("❌ File not found! Check your file path.")
     st.stop()
